@@ -1,0 +1,55 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ===================== VARIABLES CSS ===================== */
+
+:root {
+  --header-height: 3rem;
+
+  /* ===================== Colors ===================== */
+  --tittle-color: #2657c1;
+  --text-color: black;
+  --body-color: #e2e2e2;
+
+  /* ===================== Font & Typography ===================== */
+  --body-font: "Montserrat", sans-serif;
+
+  --big-font-size: 3.5rem;
+  --h1-font-sizxe: 2.25rem;
+  --h2-font-sizxe: 1.5rem;
+  --h3-font-sizxe: 1.25rem;
+  --normal-font-sizxe: 1rem;
+  --small-font-sizxe: 0.813rem;
+  --tiny-font-sizxe: 0.625rem;
+
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--body-color);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+image {
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 6rem 0 2rem;
+}
+
+
+/* =================================== */
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 350px) {}
